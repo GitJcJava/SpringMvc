@@ -1,0 +1,12 @@
+#ysrcpMembership table
+
+create table YsrcpMembersh	ip(memno number(5)primary key,Mname varchar2(15),DISTRICT VARCHAR2(20),MANADAL VARCHAR2(30),
+														constituency VARCHAR2(40),  village VARCHAR2(30),CELL NUMBER(10));
+
+#auto number generation for memberID
+CREATE SEQUENCE memeno
+start with 0001
+increment by 1
+minvalue 0
+maxvalue 10000
+cycle;
